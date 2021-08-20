@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT weather:wsgi
+web: waitress-serve --listen="*:$PORT" weather:wsgi
