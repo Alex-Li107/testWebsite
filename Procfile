@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT weather.wsgi:application
+web: waitress-serve --port=$PORT weather:wsgi
