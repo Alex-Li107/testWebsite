@@ -1,1 +1,1 @@
-web: gunicorn weather.wsgi
+web: waitress-serve --listen=127.0.0.1:8000 weather.wsgi:application
